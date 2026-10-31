@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DW Interiors | Interior Design Practice</title>
+  <meta name="description" content="DW Interiors is an independent interior design practice focused on residential and workplace interiors." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+            display: ["Cabinet Grotesk", "sans-serif"],
+            mono: ["JetBrains Mono", "monospace"],
+          },
+          colors: {
+            sand: "#F7F6F2",
+            surface: "#FFFFFF",
+            ink: "#121212",
+            muted: "#666562",
+            rule: "#E2E0D8",
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="site-shell">
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <span class="dot"></span>
+    <span class="toast-text">wienekedesigns@gmail.com copied to clipboard</span>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="index.html" aria-label="DW Interiors Home">
+        <img src="DW Logo2.png" alt="DW Interiors Logo" class="brand-mark" />
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" class="active">Selected Work</a>
+        <a href="about.html">Practice & Profile</a>
+        <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" data-copy-email>Inquire</a>
+      </nav>
+
+      <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" class="button-outline hidden md:inline-flex" data-copy-email>
+        Start Commission
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container section">
+      <span class="section-kicker">Independent Interior Design Practice • Manila</span>
+      <h1 class="hero-title">
+        High-performance residential transformations and resolved architectural interiors.
+      </h1>
+    </section>
+
+    <section class="container section">
+      <div class="flex items-baseline justify-between mb-8 gap-4">
+        <h2 class="section-kicker mb-0">Selected Projects (05)</h2>
+        <span class="section-kicker mb-0">Residential • Workplace</span>
+      </div>
+
+      <div class="project-grid">
+        <a href="m-residence.html" class="project-card">
+          <div class="project-media">
+            <img src="M Residence-Entry.png" alt="M Residence" />
+            <div class="project-tag">3-Storey Residence</div>
+          </div>
+          <div class="project-meta">
+            <h3 class="project-title">M Residence</h3>
+            <span class="project-arrow">→</span>
+          </div>
+          <div class="project-sub">Metro Manila • Modern Contemporary</div>
+        </a>
+
+        <a href="s-residence.html" class="project-card">
+          <div class="project-media">
+            <img src="S Residence-Living Area.png" alt="S Residence" onerror="this.src='Living Area.png'" />
+            <div class="project-tag">Luxury Condominium</div>
+          </div>
+          <div class="project-meta">
+            <h3 class="project-title">S Residence</h3>
+            <span class="project-arrow">→</span>
+          </div>
+          <div class="project-sub">Baron Tower • Biophilic High-Rise</div>
+        </a>
+
+        <a href="strata-suites.html" class="project-card">
+          <div class="project-media">
+            <img src="Strata Suites-10. Isometric.png" alt="Strata Suites" onerror="this.src='10. Isometric.png'" />
+            <div class="project-tag">Urban Suite</div>
+          </div>
+          <div class="project-meta">
+            <h3 class="project-title">Strata Suites</h3>
+            <span class="project-arrow">→</span>
+          </div>
+          <div class="project-sub">Metro Manila • Non-Orthogonal Footprint</div>
+        </a>
+
+        <a href="l-residence.html" class="project-card">
+          <div class="project-media">
+            <img src="LResidence-Living Room.png" alt="L Residence" />
+            <div class="project-tag">Two-Storey Residence</div>
+          </div>
+          <div class="project-meta">
+            <h3 class="project-title">L Residence</h3>
+            <span class="project-arrow">→</span>
+          </div>
+          <div class="project-sub">Metro Manila • Tropical Contemporary</div>
+        </a>
+
+        <a href="pioneer-hq.html" class="project-card">
+          <div class="project-media">
+            <img src="PioneerAdhesivesHQ-Lobby.png" alt="Pioneer Adhesive HQ" />
+            <div class="project-tag">Corporate Workplace</div>
+          </div>
+          <div class="project-meta">
+            <h3 class="project-title">Pioneer Adhesive HQ</h3>
+            <span class="project-arrow">→</span>
+          </div>
+          <div class="project-sub">Commercial • Headquarters Fit-Out</div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="container promo-line">
+      <div class="footer-grid">
+        <div>
+          <img src="DW Logo2.png" alt="DW Interiors Logo" class="brand-small" />
+          <h4 class="footer-title">Have an upcoming Interior Design commission?</h4>
+        </div>
+
+        <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" class="button" data-copy-email>
+          Direct Studio Inquiry
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

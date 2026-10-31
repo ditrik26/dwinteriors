@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L Residence | DW Interiors</title>
+  <meta name="description" content="L Residence by DW Interiors — a tropical contemporary home shaped by light, ventilation, and refined natural materials." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+            display: ["Cabinet Grotesk", "sans-serif"],
+            mono: ["JetBrains Mono", "monospace"],
+          },
+          colors: { sand:"#F7F6F2", surface:"#FFFFFF", ink:"#121212", muted:"#666562", rule:"#E2E0D8" }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="site-shell">
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <span class="dot"></span>
+    <span class="toast-text">wienekedesigns@gmail.com copied to clipboard</span>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="index.html" aria-label="DW Interiors Home">
+        <img src="DW Logo2.png" alt="DW Interiors Logo" class="brand-mark" />
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Selected Work</a>
+        <a href="about.html">Profile</a>
+        <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" data-copy-email>Inquire</a>
+      </nav>
+
+      <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" class="button-outline hidden md:inline-flex" data-copy-email>
+        Start Commission
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="page-hero">
+        <span class="section-kicker">Commission 04 / tropical residence</span>
+        <h1 class="page-title">L Residence</h1>
+      </section>
+
+      <section class="section">
+        <img src="LResidence-Living Room.png" alt="L Residence living room" class="project-hero" />
+        <div class="project-facts">
+          <div><span class="fact-label">Typology</span><span class="fact-value">Tropical Contemporary</span></div>
+          <div><span class="fact-label">Scale</span><span class="fact-value">Two-Storey Residence</span></div>
+          <div><span class="fact-label">Focus</span><span class="fact-value">Indoor-Outdoor Living</span></div>
+          <div><span class="fact-label">Scope</span><span class="fact-value">Interior Design & Styling</span></div>
+        </div>
+      </section>
+
+      <section class="project-layout">
+        <div class="two-col">
+          <div class="card-panel">
+            <span class="inline-label">Spatial narrative</span>
+            <img src="LResidence-Floorplan.png" alt="L Residence floor plan" onerror="this.src='floorplan-l1.png'" />
+            <p class="card-copy" style="margin-top:1rem;">The home is organized around natural light, generous ventilation, and seamless transitions between social and private zones.</p>
+          </div>
+
+          <div>
+            <img src="LResidence-Dining.png" alt="L Residence dining" class="project-hero" style="aspect-ratio:16/10;" />
+          </div>
+        </div>
+
+        <div class="two-col" style="margin-top:2.5rem;">
+          <div>
+            <img src="LResidence-Bedroom.png" alt="L Residence bedroom" class="project-hero" style="aspect-ratio:16/10;" />
+          </div>
+
+          <div class="card-panel">
+            <span class="inline-label">Private room experience</span>
+            <img src="LResidence-Study.png" alt="L Residence study room" onerror="this.src='Study Room.png'" />
+            <p class="card-copy" style="margin-top:1rem;">Private rooms continue the home’s warm contemporary palette, blending soft texture with refined furniture silhouettes and daylight-rich materiality.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="container promo-line">
+      <div class="footer-grid">
+        <div>
+          <span class="section-kicker mb-2">DW Interiors</span>
+          <h4 class="footer-title">Have an upcoming Interior Design commission?</h4>
+        </div>
+        <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" class="button" data-copy-email>
+          Direct Studio Inquiry
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

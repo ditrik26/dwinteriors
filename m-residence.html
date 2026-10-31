@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M Residence | DW Interiors</title>
+  <meta name="description" content="M Residence by DW Interiors — a three-storey residence designed with warm contemporary living, custom joinery, and layered hospitality-inspired detail." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+            display: ["Cabinet Grotesk", "sans-serif"],
+            mono: ["JetBrains Mono", "monospace"],
+          },
+          colors: { sand:"#F7F6F2", surface:"#FFFFFF", ink:"#121212", muted:"#666562", rule:"#E2E0D8" }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="site-shell">
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <span class="dot"></span>
+    <span class="toast-text">wienekedesigns@gmail.com copied to clipboard</span>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="index.html" aria-label="DW Interiors Home">
+        <img src="DW Logo2.png" alt="DW Interiors Logo" class="brand-mark" />
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Selected Work</a>
+        <a href="about.html">Profile</a>
+        <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" data-copy-email>Inquire</a>
+      </nav>
+
+      <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" class="button-outline hidden md:inline-flex" data-copy-email>
+        Start Commission
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="page-hero">
+        <span class="section-kicker">Commission 01 / townhouse</span>
+        <h1 class="page-title">M Residence</h1>
+      </section>
+
+      <section class="section">
+        <img src="M Residence-Entry.png" alt="M Residence hero" class="project-hero" />
+        <div class="project-facts">
+          <div><span class="fact-label">Typology</span><span class="fact-value">Modern Contemporary</span></div>
+          <div><span class="fact-label">Scale</span><span class="fact-value">3-Storey Residence</span></div>
+          <div><span class="fact-label">Program</span><span class="fact-value">3 Suites / Deck / Lounge</span></div>
+          <div><span class="fact-label">Documentation</span><span class="fact-value">Schematic to Detail</span></div>
+        </div>
+      </section>
+
+      <section class="project-layout">
+        <div class="two-col">
+          <div class="card-panel">
+            <span class="inline-label">Level 01 / general furniture layout</span>
+            <img src="floorplan-l1.png" alt="Level 01 floor plan" />
+            <p class="card-copy" style="margin-top:1rem;">Open floorplate connecting culinary preparation and formal dining, separated from the living hall via an integrated slatted partition.</p>
+          </div>
+
+          <div>
+            <img src="Dining & Kitchen.png" alt="Dining and kitchen" class="project-hero" style="aspect-ratio:16/10;" />
+          </div>
+        </div>
+
+        <div class="two-col" style="margin-top: 2.5rem;">
+          <div>
+            <img src="MBr.jpg" alt="Master bedroom" class="project-hero" style="aspect-ratio:16/10;" />
+          </div>
+
+          <div class="card-panel">
+            <span class="inline-label">Level 02 / primary sanctuary</span>
+            <img src="floorplan-l2.png" alt="Level 02 floor plan" />
+            <p class="card-copy" style="margin-top:1rem;">Master suite detailed with custom vanity millwork, stone-accented bedhead cladding, and dedicated walk-in wardrobe storage.</p>
+          </div>
+        </div>
+
+        <div class="two-col" style="margin-top: 2.5rem;">
+          <div class="card-panel">
+            <span class="inline-label">Level 03 / sky deck & entertainment</span>
+            <img src="floorplan-l3.png" alt="Level 03 floor plan" />
+            <p class="card-copy" style="margin-top:1rem;">Covered sky deck integrated with an exterior wet bar, laundry utility enclosure, and private acoustic media lounge.</p>
+          </div>
+
+          <div>
+            <img src="Enscape_2026-09-06-17-44-48.png" alt="Sky deck" class="project-hero" style="aspect-ratio:16/10; margin-bottom:1rem;" />
+            <img src="Media Room.jpg" alt="Media lounge" class="project-hero" style="aspect-ratio:16/10;" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="container promo-line">
+      <div class="footer-grid">
+        <div>
+          <span class="section-kicker mb-2">DW Interiors</span>
+          <h4 class="footer-title">Have an upcoming Interior Design commission?</h4>
+        </div>
+        <a href="mailto:wienekedesigns@gmail.com?subject=Interior%20Design%20Commission%20Inquiry%20-%20DW%20Interiors" class="button" data-copy-email>
+          Direct Studio Inquiry
+        </a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
